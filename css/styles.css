@@ -63,6 +63,9 @@ button {
 	padding-bottom: 94px;
 	display: flex;
 }
+.no-padding-top {
+	padding-top: 0;
+}
 
 .container {
 	width: 1200px;
@@ -109,6 +112,7 @@ header nav ul {
 	line-height: 1.1738;
 	font-weight: 700;
 	color: var(--logo-color-text);
+	width: 145px;
 }
 .logo_first_word {
 	color: #2196f3;
@@ -147,18 +151,26 @@ header nav ul {
 	padding-left: 50px;
 }
 
+.hero-layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+
 .button_page1 {
 	background-color: #2196f3;
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
-	display: flex;
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
 	cursor: pointer;
 	font-family: inherit;
+	width: 200px;
+	height: 50px;
+	text-align: center;
 }
 .button_page1:hover {
 	color: #000;
@@ -172,6 +184,8 @@ header nav ul {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 1);
+	padding-bottom: 30px;
+	width: 696px;
 }
 
 header a:hover,
@@ -199,6 +213,51 @@ menu:hover {
 	color: #fff;
 }
 
+.lorem-layout {
+	display: flex;
+	gap: 30px;
+}
+.lorem-layout li {
+	flex-basis: 270px;
+}
+.what-we-do-images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 1170px;
+}
+
+.what-we-do-layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 386px;
+}
+
+.team-layout {
+	height: 648px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	justify-items: center;
+}
+.team-layout ul {
+	display: flex;
+	height: 368px;
+	justify-content: space-between;
+}
+.team-layout ul li {
+	background-color: #ffffff;
+}
+.image-desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 108px;
+}
+
 .image_title {
 	font-size: 18px;
 	line-height: 2;
@@ -211,6 +270,18 @@ menu:hover {
 	font-weight: 400;
 	color: #757575;
 }
+.footer-layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 252px;
+}
+.address-layout {
+	height: 81px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .footer-address {
 	font-weight: 400;
 	line-height: 1.71;
@@ -222,6 +293,7 @@ menu:hover {
 }
 .footer-background {
 	background-color: var(--background-footer-color);
+	height: 252px;
 }
 
 .footer_mail_tel {

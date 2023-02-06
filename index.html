@@ -45,11 +45,13 @@
 		</header>
 
 		<main>
-			<!--BANER-->
+			<!--HERO-->
 			<section class="dark_background">
 				<div class="container">
-					<h1 class="text_on_banner_page1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-					<button type="button" class="button_page1">Zamów usługe</button>
+					<div class="hero-layout">
+						<h1 class="text_on_banner_page1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+						<button type="button" class="button_page1">Zamów usługe</button>
+					</div>
 				</div>
 			</section>
 
@@ -58,7 +60,7 @@
 				<div class="container">
 					<h2 class="visually-hidden">To jest tytuł tagu h2 do ukrycia</h2>
 					<!--Ten tag <H2> będzie ukryty później - polecenie @IVAN-->
-					<ul>
+					<ul class="lorem-layout">
 						<li>
 							<h3 class="lorem-style">Lorem, ipsum.</h3>
 							<p class="lorem-text">
@@ -92,77 +94,91 @@
 			</section>
 
 			<!--Sekcja 3-->
-			<section class="section">
+			<section class="section no-padding-top">
 				<div class="container">
-					<h2 class="section-title">Czym się zajmujemy</h2>
+					<div class="what-we-do-layout">
+						<h2 class="section-title">Czym się zajmujemy</h2>
 
-					<ul>
-						<li>
-							<img src="images/01_komputer.jpg" alt="komputer" width="370" height="294" />
-						</li>
-						<li>
-							<img src="images/02_komorka.jpg" alt="komórka" width="370" height="294" />
-						</li>
-						<li>
-							<img src="images/03_tablet.jpg" alt="tablet" width="370" height="294" />
-						</li>
-					</ul>
+						<ul class="what-we-do-images">
+							<li>
+								<img src="images/01_komputer.jpg" alt="komputer" width="370" height="294" />
+							</li>
+							<li>
+								<img src="images/02_komorka.jpg" alt="komórka" width="370" height="294" />
+							</li>
+							<li>
+								<img src="images/03_tablet.jpg" alt="tablet" width="370" height="294" />
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 
 			<!--Sekcja nasz zespół-->
-			<section class="section team_background">
+			<section class="section team_background no-padding-top">
 				<div class="container">
-					<h2 class="section-title">Nasz zespół</h2>
-					<ul>
-						<li>
-							<img src="images/person1.jpg" alt="osoba1" width="270" height="260" />
-							<h3 class="name">John Doe</h3>
-							<p class="description">Product Designer</p>
-						</li>
-						<li>
-							<img src="images/person2.jpg" alt="osoba2" width="270" height="260" />
-							<h3 class="name">John Doe</h3>
-							<p class="description">Frontend Developer</p>
-						</li>
-						<li>
-							<img src="images/person3.jpg" alt="osoba3" width="270" height="260" />
-							<h3 class="name">John Doe</h3>
-							<p class="description">Marketing</p>
-						</li>
-						<li>
-							<img src="images/person4.jpg" alt="osoba4" width="270" height="260" />
-							<h3 class="name">John Doe</h3>
-							<p class="description">UI Designer</p>
-						</li>
-					</ul>
+					<div class="team-layout">
+						<h2 class="section-title">Nasz zespół</h2>
+						<ul>
+							<li>
+								<img src="images/person1.jpg" alt="osoba1" width="270" height="260" />
+								<div class="image-desc">
+									<h3 class="name">John Doe</h3>
+									<p class="description">Product Designer</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/person2.jpg" alt="osoba2" width="270" height="260" />
+								<div class="image-desc">
+									<h3 class="name">John Doe</h3>
+									<p class="description">Frontend Developer</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/person3.jpg" alt="osoba3" width="270" height="260" />
+								<div class="image-desc">
+									<h3 class="name">John Doe</h3>
+									<p class="description">Marketing</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/person4.jpg" alt="osoba4" width="270" height="260" />
+								<div class="image-desc">
+									<h3 class="name">John Doe</h3>
+									<p class="description">UI Designer</p>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 		</main>
 
 		<footer class="footer-background">
 			<div class="container">
-				<a href="index.html" class="logo">
-					<span class="logo_first_word">Web</span><span class="logo_second_word_footer">Studio</span>
-				</a>
-				<address class="footer-delete-italic">
-					<ul>
-						<li>
-							<a
-								href="https://goo.gl/maps/itPmvaoKHj2uYjHUA"
-								target="_blank"
-								rel="nofollow noopener noreferrer"
-								class="footer-address"
-							>
-								m. Warszawa, Aleje Jerozolimskie 21
-							</a>
-						</li>
-						<li>
-							<a href="mailto:info@example.com" class="footer_mail_tel">info@example.com</a>
-						</li>
-						<li><a href="tel:+48111111111" class="footer_mail_tel">+48 111 111 111</a></li>
-					</ul>
-				</address>
+				<div class="footer-layout">
+					<a href="index.html" class="logo">
+						<span class="logo_first_word">Web</span><span class="logo_second_word_footer">Studio</span>
+					</a>
+					<address class="footer-delete-italic">
+						<ul class="address-layout">
+							<li>
+								<a
+									href="https://goo.gl/maps/itPmvaoKHj2uYjHUA"
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									class="footer-address"
+								>
+									m. Warszawa, Aleje Jerozolimskie 21
+								</a>
+							</li>
+							<li>
+								<a href="mailto:info@example.com" class="footer_mail_tel">info@example.com</a>
+							</li>
+							<li><a href="tel:+48111111111" class="footer_mail_tel">+48 111 111 111</a></li>
+						</ul>
+					</address>
+				</div>
 			</div>
 		</footer>
 	</body>
