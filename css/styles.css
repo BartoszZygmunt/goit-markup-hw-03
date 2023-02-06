@@ -386,3 +386,9 @@ menu:hover {
 	height: 404px;
 	flex-basis: 370px;
 }
+.one-image-layout {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 24px;
+	justify-content: space-between;
+}
