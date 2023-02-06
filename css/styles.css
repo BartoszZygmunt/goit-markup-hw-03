@@ -203,6 +203,7 @@ menu:hover {
 	background-color: var(--buttons-port-color);
 	letter-spacing: 0.03em;
 	color: var(--main-text-color);
+	padding: 6px 22px;
 }
 .buttons:hover {
 	background-color: #2196f3;
@@ -211,6 +212,7 @@ menu:hover {
 .buttons_current {
 	background-color: #2196f3;
 	color: #fff;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .lorem-layout {
@@ -357,4 +359,30 @@ menu:hover {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+/* page PORTFOLIO   */
+
+.buttons-layout {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+}
+.portfolio-layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	justify-items: center;
+	margin-top: 94px;
+	height: 1360px;
+}
+
+.images-layout {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.images-layout li {
+	height: 404px;
+	flex-basis: 370px;
 }
