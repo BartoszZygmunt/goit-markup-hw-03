@@ -295,6 +295,7 @@ menu:hover {
 }
 .footer-delete-italic {
 	font-style: normal;
+	padding-top: 20px;
 	/* usuwam domyślny styl ITALIC dla <address> */
 }
 .footer-background {
