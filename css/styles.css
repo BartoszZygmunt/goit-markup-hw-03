@@ -280,7 +280,7 @@ menu:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	height: 252px;
+	padding: 60px 0;
 }
 .address-layout {
 	height: 81px;
@@ -299,7 +299,6 @@ menu:hover {
 }
 .footer-background {
 	background-color: var(--background-footer-color);
-	height: 252px;
 }
 
 .footer_mail_tel {
