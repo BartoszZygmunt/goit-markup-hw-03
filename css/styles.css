@@ -240,7 +240,7 @@ menu:hover {
 }
 
 .team-layout {
-	height: 648px;
+	/*height: 648px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -248,11 +248,14 @@ menu:hover {
 }
 .team-layout ul {
 	display: flex;
-	height: 368px;
+	/*height: 368px;*/
 	justify-content: space-between;
 }
 .team-layout ul li {
 	background-color: #ffffff;
+}
+.team-padding-bottom {
+	padding-bottom: 50px;
 }
 .image-desc {
 	display: flex;
