@@ -251,17 +251,19 @@ menu:hover {
 	line-height: 2;
 	font-weight: 700;
 	letter-spacing: 0.06em;
-	margin-top: 20px;
-	padding: 0 24px;
+	padding: 20px 24px;
+	border-left: 1px solid rgba(238, 238, 238, 1);
+	border-right: 1px solid rgba(238, 238, 238, 1);
 }
 .image_description {
 	font-size: 16px;
 	line-height: 1.875;
 	font-weight: 400;
 	color: #757575;
-	margin-bottom: 20px;
-	margin-top: 4px;
-	padding: 0 24px;
+	padding: 4px 24px 20px 24px;
+	border-left: 1px solid rgba(238, 238, 238, 1);
+	border-right: 1px solid rgba(238, 238, 238, 1);
+	border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 
 .footer-address {
@@ -359,7 +361,6 @@ menu:hover {
 	gap: 30px;
 }
 .images-layout li {
-	border: 1px solid rgba(238, 238, 238, 1);
 	flex-basis: 370px;
 }
 /*.one-image-layout {
