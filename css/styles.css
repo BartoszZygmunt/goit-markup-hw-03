@@ -51,6 +51,11 @@ a {
 }
 address {
 	font-style: normal;
+	margin-top: 20px;
+}
+
+.list-margin {
+	margin-bottom: 9px;
 }
 button {
 	display: block;
@@ -92,11 +97,11 @@ header nav ul {
 	align-items: center;
 	height: 80px;
 }
-.header-left {
+/*.header-left {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-}
+}  */
 
 .header-right {
 	display: flex;
@@ -111,6 +116,9 @@ header nav ul {
 	line-height: 1.1738;
 	font-weight: 700;
 	color: var(--logo-color-text);
+}
+.nav-margin {
+	margin-left: 93px;
 }
 .logo_first_word {
 	color: #2196f3;
@@ -201,7 +209,7 @@ menu:hover {
 	background-color: var(--buttons-port-color);
 	letter-spacing: 0.03em;
 	color: var(--main-text-color);
-	padding: 6px 22px;
+	padding: 6px 25px;
 }
 .buttons:hover {
 	background-color: #2196f3;
@@ -244,6 +252,8 @@ menu:hover {
 
 .team-layout li {
 	background-color: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .image_title {
@@ -251,16 +261,16 @@ menu:hover {
 	line-height: 2;
 	font-weight: 700;
 	letter-spacing: 0.06em;
-	padding: 20px 24px;
-	border-left: 1px solid rgba(238, 238, 238, 1);
-	border-right: 1px solid rgba(238, 238, 238, 1);
 }
 .image_description {
 	font-size: 16px;
 	line-height: 1.875;
 	font-weight: 400;
 	color: #757575;
-	padding: 4px 24px 20px 24px;
+	margin-top: 4px;
+}
+.title-desc-layout {
+	padding: 20px 24px;
 	border-left: 1px solid rgba(238, 238, 238, 1);
 	border-right: 1px solid rgba(238, 238, 238, 1);
 	border-bottom: 1px solid rgba(238, 238, 238, 1);
@@ -274,6 +284,7 @@ menu:hover {
 
 .footer-background {
 	background-color: var(--background-footer-color);
+	padding: 60px 0;
 }
 
 .footer_mail_tel {
@@ -319,7 +330,6 @@ menu:hover {
 	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
-	margin-top: 30px;
 }
 .description {
 	font-weight: 400;
@@ -329,7 +339,10 @@ menu:hover {
 	letter-spacing: 0.03em;
 	color: #757575;
 	margin-top: 10px;
-	margin-bottom: 30px;
+}
+.name-desc-padd {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .visually-hidden {
 	position: absolute;
@@ -351,8 +364,7 @@ menu:hover {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	min-height: 54px;
-	margin-bottom: 34px;
+	margin-bottom: 50px;
 }
 
 .images-layout {
